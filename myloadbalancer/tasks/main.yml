@@ -1,0 +1,13 @@
+---
+# tasks file for myloadbalancer
+
+- package:
+            name: "haproxy"
+            state: present
+
+- template:
+            src: "templates/{{ haproxy_file }}"
+            dest: "/etc/haproxy/"
+  notify: "Haproxy"
+
+
