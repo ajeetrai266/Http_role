@@ -1,5 +1,5 @@
 # http_role
 
-myapache - Ansible role to configure HTTPD Server
-myloadbalancer - Ansible role to configure HaProxy Server
-
+( myapache )folder - Ansible role to configure HTTPD Server
+( myloadbalancer )folder - Ansible role to configure HaProxy Server
+( http_role )file - to run both of these Roles controlling WebServers
